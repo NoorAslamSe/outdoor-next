@@ -1,5 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
+// Add this line at the top:
+import Testimonial from './components/Testimonial';
 
 export default function Home() {
   return (
@@ -9,6 +11,7 @@ export default function Home() {
       
       {/* 2. This shows your background image and middle text */}
       <Hero />
+      <Testimonial />
     </main>
   );
 }
