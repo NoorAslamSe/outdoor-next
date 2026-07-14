@@ -17,24 +17,31 @@ export default function Header() {
           <span className="text-[10px] font-semibold tracking-[0.3em] text-gray-300">ADVENTURE</span>
         </Link>
 
-        {/* DESKTOP NAVIGATION LINKS (Hidden on mobile 'hidden', visible on medium screens 'md:flex') */}
-        <nav className="hidden md:flex items-center space-x-8">
-          <Link href="/" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-medium">
-            Home
-          </Link>
-          <Link href="/about" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-medium">
-            About
-          </Link>
-          <Link href="/services" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-medium">
-            Services
-          </Link>
-        </nav>
+        {/* ======================================================================= */}
+        {/* RIGHT SIDE CONTAINER: Houses Navigation and Button grouped tight together */}
+        {/* ======================================================================= */}
+        <div className="hidden md:flex items-center space-x-10">
+          
+          {/* DESKTOP NAVIGATION LINKS */}
+          <nav className="flex items-center space-x-8">
+            <Link href="/" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-medium">
+              Home
+            </Link>
+            <Link href="/about" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-medium">
+              About
+            </Link>
+            <Link href="/services" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-medium">
+              Services
+            </Link>
+          </nav>
 
-        {/* DESKTOP TAKE ACTION BUTTON (Hidden on mobile, visible on desktop) */}
-        <div className="hidden md:block">
-          <button className="bg-[#FF2060] hover:bg-rose-700 text-white font-bold px-6 py-2.5 rounded-full text-sm tracking-wider uppercase transition-all duration-200 cursor-pointer">
-            Take Action
-          </button>
+          {/* DESKTOP TAKE ACTION BUTTON */}
+          <div>
+            <button className="bg-[#FF2060] hover:bg-rose-700 text-white font-bold px-6 py-2.5 rounded-full text-sm tracking-wider uppercase transition-all duration-200 cursor-pointer">
+              Take Action
+            </button>
+          </div>
+
         </div>
 
         {/* MOBILE HAMBURGER / CLOSE BUTTON (Visible only on small screens 'md:hidden') */}
