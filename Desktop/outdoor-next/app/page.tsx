@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Testimonial from './components/Testimonial';
 import UpcomingEvents from './components/UpcomingEvents';
+import ExploreWorld from './components/ExploreWorld';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Testimonial />
       <UpcomingEvents />
+      <ExploreWorld />
     </main>
   );
 }
