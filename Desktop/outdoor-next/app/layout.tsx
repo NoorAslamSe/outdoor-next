@@ -1,6 +1,8 @@
+import Footer from './components/Footer';
 import type { Metadata } from "next";
 import { Montserrat, Noto_Sans } from "next/font/google"; // 1. Import Montserrat
 import "./globals.css";
+
 
 // 2. Configure Montserrat with weights you need (especially 700)
 const montserrat = Montserrat({
@@ -29,6 +31,7 @@ export default function RootLayout({
       {/* 3. Apply Montserrat to the whole website */}
       <body className={`${montserrat.className} ${notoSans.variable} antialiased`}>
         {children}
+        <Footer />
       </body>
     </html>
   );
