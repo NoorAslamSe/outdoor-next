@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Testimonial from './components/Testimonial';
 import UpcomingEvents from './components/UpcomingEvents';
 import ExploreWorld from './components/ExploreWorld';
+import UpcomingTours from './components/UpcomingTours';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Testimonial />
       <UpcomingEvents />
       <ExploreWorld />
+      <UpcomingTours />
     </main>
   );
 }
