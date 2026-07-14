@@ -18,7 +18,7 @@ export default function ExploreWorld() {
         <div className="w-full md:w-1/2 flex flex-col items-start text-left">
           
           {/* 1. Heading using Montserrat */}
-          <h2 className="font-sans text-3xl md:text-[45px] font-bold text-white tracking-tight leading-tight mb-4">
+          <h2 className="font-sans text-3xl md:text-[34px] font-bold text-white tracking-tight leading-tight mb-4">
             Explore The World
           </h2>
 
