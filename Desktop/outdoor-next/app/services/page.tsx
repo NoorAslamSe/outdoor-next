@@ -1,5 +1,6 @@
 import Header from '../components/Header'; // Adjust if path to your Header is different
 import ServiceGrid from '../components/ServiceGrid';
+import ServiceDetails from '../components/ServiceDetails';
 
 export default function ServicesPage() {
   return (
@@ -25,6 +26,7 @@ export default function ServicesPage() {
       <div className="bg-[#f8f9fa] flex-grow w-full">
         {/* The service cards or descriptions will go right here in the next step */}
         <ServiceGrid />
+        <ServiceDetails />
       </div>
     </div>
   );
