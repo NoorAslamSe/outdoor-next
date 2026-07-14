@@ -1,4 +1,6 @@
-import Header from '../components/Header'; // Adjust path if your Header is named differently
+import Header from '../components/Header'; 
+import OurMission from '../components/OurMission';
+import CoreValues from '../components/CoreValues';
 
 export default function AboutPage() {
   return (
@@ -23,6 +25,8 @@ export default function AboutPage() {
       {/* 3. Empty Content Section Placeholder (Ready for the next sections) */}
       <div className="bg-[#f8f9fa] flex-grow w-full py-12">
         {/* Your upcoming about body text sections will go here */}
+        <OurMission />
+        <CoreValues />
       </div>
     </div>
   );
