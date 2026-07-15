@@ -4,6 +4,7 @@ import Testimonial from './components/Testimonial';
 import UpcomingEvents from './components/UpcomingEvents';
 import ExploreWorld from './components/ExploreWorld';
 import UpcomingTours from './components/UpcomingTours';
+import TourCarousel from './components/TourCarousel';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       
       {/* 2. This shows your background image and middle text */}
       <Hero />
+      <TourCarousel/>
       <Testimonial />
       <UpcomingEvents />
       <ExploreWorld />
