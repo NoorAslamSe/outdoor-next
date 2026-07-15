@@ -5,7 +5,7 @@ export default function Hero() {
       
       {/* BACKGROUND IMAGE: We use a beautiful nature image placeholder for now */}
       <div 
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{ 
           backgroundImage: `url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1920')` 
         }}
@@ -23,15 +23,15 @@ export default function Hero() {
         </p>
 
         {/* Small red line underneath subtitle */}
-        <div className="w-16 h-[2px] bg-[#FF2060] mb-6" />
+        <div className="w-16 h-[2px] bg-[#FF2060] mb-2" />
 
         {/* Big Bold Main Heading */}
-        <h1 className="font-bold tracking-tight mb-8 drop-shadow-md text-4xl md:text-[64px] leading-tight md:leading-[89.6px]">
+        <h1 className="font-bold tracking-tight mb-3 drop-shadow-md text-4xl md:text-[64px] leading-tight md:leading-[89.6px]">
         A Wonderful Gift
         </h1>
 
         {/* Learn More Button */}
-        <button className="bg-[#FF2060] hover:bg-rose-700 text-white font-bold px-8 py-3 rounded-full text-sm tracking-widest uppercase transition-all duration-200 cursor-pointer">
+        <button className="bg-[#FF2060] hover:bg-rose-700 text-white font-bold px-8 py-3 rounded-full text-sm tracking-tight uppercase transition-all duration-200 cursor-pointer">
           Learn More
         </button>
 

@@ -13,7 +13,7 @@ export default function Testimonial() {
 
         {/* Right side: Text block (Centered internally) */}
         {/* We changed "md:text-left" to "text-center flex flex-col items-center" */}
-        <div className="max-w-2xl flex flex-col items-center text-center">
+        <div className="max-w-none flex flex-col items-center text-center">
           <p className="font-noto text-[20.8px] leading-[27.2px] text-[#404040] italic font-normal">
             "Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris."
           </p>

@@ -35,17 +35,17 @@ export default function Header() {
         {/* ======================================================================= */}
         {/* RIGHT SIDE CONTAINER: Houses Navigation and Button grouped tight together */}
         {/* ======================================================================= */}
-        <div className="hidden md:flex items-center space-x-10">
+        <div className="hidden md:flex items-center space-x-10 ">
           
           {/* DESKTOP NAVIGATION LINKS */}
           <nav className="flex items-center space-x-8">
-            <Link href="/" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-medium">
+            <Link href="/" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-normal">
               Home
             </Link>
-            <Link href="/about" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-medium">
+            <Link href="/about" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-normal">
               About
             </Link>
-            <Link href="/services" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-medium">
+            <Link href="/services" className="text-white hover:text-[#FF2060] transition-colors duration-200 font-normal">
               Services
             </Link>
           </nav>
