@@ -2,7 +2,7 @@ export default function ExploreWorld() {
   return (
     // We use bg-fixed for the parallax scrolling effect, and cover/center to keep it positioned perfectly
     <section 
-      className="relative w-full min-h-[500px] md:min-h-[600px] bg-cover bg-center bg-fixed flex items-center justify-center py-16 px-6 md:px-12"
+      className="relative w-full min-h-[500px] md:min-h-[596px] bg-cover bg-center bg-fixed flex items-center justify-center py-16 px-6 md:px-12"
       style={{ backgroundImage: "url('/explore-bg.jpg')" }}
     >
       {/* Dark overlay to make the text pop */}
