@@ -9,13 +9,28 @@ export default function Header() {
 
   return (
     <header className="absolute top-0 left-0 w-full z-50 bg-transparent">
-      <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-8 lg:px-12 py-5 flex items-center justify-between">
         
-        {/* LOGO */}
-        <Link href="/" className="flex flex-col text-white tracking-wider z-50">
-          <span className="text-2xl font-extrabold leading-none">OUTDOOR</span>
-          <span className="text-[10px] font-semibold tracking-[0.3em] text-gray-300">ADVENTURE</span>
-        </Link>
+         {/* LOGO */}
+<Link href="/" className="flex flex-col text-white z-50 select-none">
+  {/* OUTDOOR - Exact 400 Weight (font-normal) */}
+  <span className="text-[28px] font-semibold leading-none tracking-normal font-sans uppercase">
+    OUTDOOR
+  </span>
+  
+  {/* ADVENTURE - Stretched perfectly from edge to edge using flex box */}
+  <span className="flex justify-between text-[10px] font-normal text-gray-200 mt-1 font-sans uppercase w-full">
+    <span>A</span>
+    <span>D</span>
+    <span>V</span>
+    <span>E</span>
+    <span>N</span>
+    <span>T</span>
+    <span>U</span>
+    <span>R</span>
+    <span>E</span>
+  </span>
+</Link>
 
         {/* ======================================================================= */}
         {/* RIGHT SIDE CONTAINER: Houses Navigation and Button grouped tight together */}
